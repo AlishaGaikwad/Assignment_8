@@ -1,0 +1,76 @@
+body {
+    font-size: 1rem; /* Changed from 16px to 1rem for better scalability */
+}
+
+header {
+    font-size: 1.25rem; /* Changed from 20px to 1.25rem */
+}
+
+form {
+    width: 270px;
+    display: inline-block;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.75rem; /* Changed from 12px */
+    width: 372px;
+}
+
+.input-label {
+    width: 80px;
+}
+
+.add-btn {
+    background-color: #0b8eb8;
+    color: #fff;
+    border: 1px solid #045b77;
+    padding: 4px 16px;
+    width: 80px;
+    float: right;
+    cursor: pointer; /* Added for a pointer cursor effect */
+}
+
+.user-input {
+    border: 1px solid #045b77;
+    height: 20px;
+    width: 184px;
+}
+
+thead th {
+    background-color: #0b8eb8;
+    color: #fff;
+    width: 150px;
+}
+
+#display-employee-rows tr {
+    height: 32px;
+}
+
+#display-employee-rows th {
+    background-color: #0b8eb8;
+    color: #fff;
+}
+
+#display-employee-rows tr:nth-of-type(odd) {
+    background-color: #a0d1e6;
+}
+
+#display-employee-rows tr:nth-of-type(even) {
+    background-color: #d3e1eb;
+}
+
+.delete-btn {
+    width: 80px;
+    background-color: #0b8eb8;
+    border: 1px solid #045b77;
+    color: #fff;
+    margin: 2px 40px;
+    cursor: pointer; /* Added cursor pointer for a more interactive effect */
+}
+
+.required {
+    color: red;
+    margin-left: 0.5rem; /* Changed from 8px */
+}
